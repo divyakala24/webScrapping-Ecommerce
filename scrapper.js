@@ -18,7 +18,7 @@ const puppeteer = require('puppeteer');
    });
    const page = await browser.newPage();
    await page.setViewport({ width: 1366, height: 800 });
-   await page.goto('https://www.amazon.in/s?k=keyboard&tag=amdot-  21&ref=nb_sb_noss',{waitUntil: 'load', timeout: 30000});
+   await page.goto('https://www.amazon.in/s?k=phones&ref=nb_sb_noss_1',{waitUntil: 'load', timeout: 30000});
    await page.waitForSelector('#search > div.s-desktop-width-max')
   
 //   catch(e){
